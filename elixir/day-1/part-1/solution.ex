@@ -1,9 +1,8 @@
-defmodule Day1.Solution do
+defmodule Day1.Part1.Solution do
   def run(input) do
     input
     |> File.read!
     |> process_input
-    |> IO.inspect
     |> compute_distance({:north, 0, 0})
   end
 
