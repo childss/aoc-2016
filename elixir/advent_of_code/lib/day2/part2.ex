@@ -1,5 +1,4 @@
-defmodule Day2.Part2.Solution do
-  require IEx
+defmodule Day2.Part2 do
   @states %{
     #       U, D, L, R
     1   => {1, 3, 1, 1},

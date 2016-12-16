@@ -1,4 +1,4 @@
-defmodule Day3.Part1.Solution do
+defmodule Day3.Part1 do
   def run(input) do
     input
     |> File.read!
